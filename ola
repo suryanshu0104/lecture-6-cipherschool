@@ -1,0 +1,100 @@
+interface olaCustomer{
+        void bookCab();
+        void findARide();
+        void rentCab();
+        void rateDriver();
+        void scheduleCab();
+        void cancelCab();
+        void addMoneytoWallet();
+        void rauseTicket();
+        void signup();
+        void signIn();
+
+    }
+    interface olaDriver{
+        void acceptBooking();
+        void getCustomerLocation();
+        void setAvailableStatus();
+        void getMyCommission();
+        void raiseMoneyTransferRequest();
+        void callCustomer();
+        void setUpYourVehicle();
+        void customerFeedback();
+    }
+    interface olaOwner{
+        void getDriverRecords();
+        void getReportByDriverID();
+        void getReportByRegion();
+        void getTotalRevenue();
+        void CustomerFeedback();
+        void addDriver();
+        void removeDriver();
+        void changeDriverStatus();
+    }
+    public class Gojo5 implements olaOwner,olaDriver,olaCustomer{
+    public static void main(String[] args){
+        olaCustomer cust = new Gojo5();
+        olaDriver manoj = new Gojo5();
+        manoj.
+    }
+    public void bookCab(){
+    }
+    public void findAride(){
+    }
+    public void rentCab(){
+    }
+    public void rateDriver(){
+    }
+    public void scheduleCab(){
+    }
+    public void cancelCab(){
+    }
+    public void addMoneytoWallet(){
+    }
+    public void rauseTicket(){
+    }
+    public void signup(){
+    }
+    public void signIn(){
+    }
+       public void getDriverRecords(){
+       }
+       public void getReportByDriverID(){
+       }
+       public void getReportByRegion(){
+       }
+       public void getTotalRevenue(){
+       }
+       public void CustomerFeedback(){
+       }
+       public void addDriver(){
+       }
+       public void removeDriver(){
+       }
+       public void changeDriverStatus(){
+       }
+       public void getDriverRecords(){
+       }
+        public void getReportByDriverID(){
+
+        }
+       public void getReportByRegion(){
+
+       }
+
+       public void getTotalRevenue(){
+
+       }
+       public void CustomerFeedback(){
+
+       }
+        public void addDriver(){
+
+        }
+       public void removeDriver(){
+
+       }
+       public   void changeDriverStatus(){
+
+       }
+}
